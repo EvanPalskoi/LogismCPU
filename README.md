@@ -3,6 +3,7 @@ A custom 8-bit CPU built from scratch in Logism, with a hand made ALU, register 
 
 # Real time Assembly instruction execution:
 The circuit is executing the instructions found in Assembly Instructions (swapping values between Address 32 and 33 without using another register
+
 ![Circuit Walkthrough](media/logism_video.gif)
 
 # Components
