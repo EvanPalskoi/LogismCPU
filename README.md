@@ -1,6 +1,10 @@
 # 16-bit custom Logism CPU Design
 A custom 8-bit CPU built from scratch in Logism, with a hand made ALU, register file, and ISA.
 
+# Real time Assembly instruction execution:
+
+![Circuit Walkthrough](media/logism_video.gif)
+
 # Components
 ### Main Circuit
 This connects the control unit, registers, ALU and memory busses.
