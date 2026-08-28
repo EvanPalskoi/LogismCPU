@@ -1,0 +1,10 @@
+; Swap values between Address 32 and Address 33
+LOAD  R1, [32]  ; Opcode 8
+LOAD  R2, [33]  ; Opcode 8
+
+XOR   R1, R1, R2 ; Opcode 4
+XOR   R2, R1, R2 ; Opcode 4
+XOR   R1, R1, R2 ; Opcode 4
+
+STORE R1, [32]  ; Opcode 9
+STORE R2, [33]  ; Opcode 9
